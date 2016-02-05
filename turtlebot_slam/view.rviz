@@ -6,10 +6,6 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
-        - /Grid1
-        - /Map1
-        - /Polygon1
-        - /Path1
       Splitter Ratio: 0.5
     Tree Height: 895
   - Class: rviz/Selection
@@ -61,13 +57,6 @@ Visualization Manager:
       Topic: /map
       Value: true
     - Alpha: 1
-      Class: rviz/Polygon
-      Color: 85; 0; 127
-      Enabled: true
-      Name: Polygon
-      Topic: /move_base_node/local_costmap/footprint
-      Value: true
-    - Alpha: 1
       Autocompute Intensity Bounds: true
       Autocompute Value Bounds:
         Max Value: 10
@@ -92,14 +81,14 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.01
       Style: Flat Squares
-      Topic: /base_scan
+      Topic: /scan
       Use Fixed Frame: true
       Use rainbow: true
       Value: true
     - Alpha: 1
       Buffer Length: 1
       Class: rviz/Path
-      Color: 255; 255; 0
+      Color: 25; 255; 0
       Enabled: true
       Line Style: Lines
       Line Width: 0.03
@@ -108,7 +97,7 @@ Visualization Manager:
         X: 0
         Y: 0
         Z: 0
-      Topic: /move_base_node/TrajectoryPlannerROS/global_plan
+      Topic: /move_base/NavfnROS/plan
       Value: true
   Enabled: true
   Global Options:
@@ -167,5 +156,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1855
-  X: 1735
-  Y: -14
+  X: 1745
+  Y: 24

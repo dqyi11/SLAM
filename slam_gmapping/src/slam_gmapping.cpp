@@ -161,8 +161,6 @@ void SlamGMapping::init()
   got_first_scan_ = false;
   got_map_ = false;
   
-
-  
   // Parameters used by our GMapping wrapper
   if(!private_nh_.getParam("throttle_scans", throttle_scans_))
     throttle_scans_ = 1;
