@@ -1,0 +1,13 @@
+<package>
+  <name>turtlebot_slam</name>
+  <maintainer email="daqing_yi@byu.edu">walter</maintainer>
+  <description>
+    Turtlebot SLAM
+  </description>
+  <version>0.0.0</version>
+  <license>BSD</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  
+</package>
