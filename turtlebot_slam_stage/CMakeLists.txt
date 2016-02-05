@@ -7,9 +7,9 @@ catkin_package(
   CATKIN_DEPENDS
 )
 
-add_executable(turtlebot_exploration src/wavefront_frontier_detection.cpp
+add_executable(turtlebot_exploration_stage src/wavefront_frontier_detection.cpp
                                      src/turtlebot_mapping.cpp
               )
 
-target_link_libraries(turtlebot_exploration ${catkin_LIBRARIES} 
+target_link_libraries(turtlebot_exploration_stage ${catkin_LIBRARIES} 
                      )

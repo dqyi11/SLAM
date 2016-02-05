@@ -10,12 +10,12 @@
 //using namespace std;
 
 struct MyPoint{
-int x;
-int y;
+  int x;
+  int y;
 };
 
 struct Line{
-std::vector<MyPoint> points;
+  std::vector<MyPoint> points;
 };
 
 

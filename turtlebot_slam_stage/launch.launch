@@ -11,7 +11,7 @@
 
   <!-- Gmapping package configuration! -->
   <node pkg="gmapping" type="slam_gmapping" name="gmapping" args="scan:=base_scan">
-  	<param name="odom_frame" value="odom"/>
+    <param name="odom_frame" value="odom"/>
     <param name="map_update_interval" value="5.0"/>
     <param name="maxUrange" value="3.2"/>
     <param name="maxRange" value="10.0" />
@@ -40,6 +40,6 @@
     <param name="lasamplestep" value="0.005"/>
   </node>
   <!-- The implementation of the frontier detection and navigation -->
-  <node pkg="turtlebot_slam_stage" type="turtlebot_exploration" name="turtlebot_slam" output="screen" />
+  <node pkg="turtlebot_slam_stage" type="turtlebot_exploration_stage" name="turtlebot_slam" output="screen" />
   <node pkg="slam_navigation" type="slam_navigation" name="slam_navigation" output="screen" />
 </launch>
