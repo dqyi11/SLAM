@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(turtlebot_slam_stage)
+project(turtlebot_slam)
 
 find_package(catkin REQUIRED roscpp)
 

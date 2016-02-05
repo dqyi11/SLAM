@@ -1,5 +1,5 @@
 <package>
-  <name>turtlebot_slam_stage</name>
+  <name>turtlebot_slam</name>
   <maintainer email="daqing_yi@byu.edu">walter</maintainer>
   <description>
     Turtlebot SLAM
