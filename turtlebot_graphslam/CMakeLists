@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 2.8)
+project(turtlebot_graphslam)
+
+find_package(catkin REQUIRED roscpp)
+
+catkin_package(
+  CATKIN_DEPENDS
+)
+
+

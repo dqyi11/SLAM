@@ -156,7 +156,6 @@ vector<vector<int> > FFD( MyPoint pose,vector<MyPoint> lr, const nav_msgs::Occup
     }
   }
 
-
   // maintainance of previously detected frontiers
   //Get active area
   int x_min=-90000,x_max=90000,y_min=-90000,y_max=90000;
@@ -239,7 +238,6 @@ vector<vector<int> > FFD( MyPoint pose,vector<MyPoint> lr, const nav_msgs::Occup
       frontiersDB.erase(frontiersDB.begin() + i);
     }
   }
-
 
   vector<vector<int> > Result;
   //convert frontierDB to frontiers
