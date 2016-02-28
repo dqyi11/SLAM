@@ -14,8 +14,12 @@ find_package(Eigen REQUIRED)
 include_directories(${EIGEN_INCLUDE_DIRS})
 add_definitions(${EIGEN_DEFINITIONS})
 
+find_path(CSPARSE_INCLUDE_DIR
+          cs.h
+         HINTS $ENV{CSPARSE}/include /usr/include/suitesparse
+         )
 include_directories(${CSPARSE_INCLUDE_DIR})
-
+message("CSPARSE ${CSPARSE_INCLUDE_DIR}")
 #set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 #set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 include_directories(${PROJECT_SOURCE_DIR}/include)
