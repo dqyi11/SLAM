@@ -1,8 +1,8 @@
 <package>
-  <name>turtlebot_slam</name>
+  <name>turtlebot_slam_gazebo</name>
   <maintainer email="daqing_yi@byu.edu">walter</maintainer>
   <description>
-    Turtlebot SLAM
+    Turtlebot SLAM in Gazebo
   </description>
   <version>0.0.0</version>
   <license>BSD</license>
